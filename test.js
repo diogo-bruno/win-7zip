@@ -5,7 +5,7 @@ let { join, dirname } = require('path');
 
 test.serial('should get path of 7z.exe', async (t) => {
   let _7z = require('./')['7z'];
-  let _7z_exe = join(__dirname, '7zip', '7z.exe');
+  let _7z_exe = join(__dirname, '7-Zip', '7z.exe');
   t.is(_7z, _7z_exe);
 
   let exists = await fs.existsAsync(_7z);

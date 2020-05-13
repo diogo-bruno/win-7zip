@@ -1,6 +1,6 @@
 {
   "name": "win-7zip",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "7zip Windows Package via Node.js",
   "keywords": [
     "7z",
@@ -11,7 +11,7 @@
   ],
   "repository": "git@github.com/diogo-bruno/win-7zip.git",
   "bin": {
-    "7z": "7zip/7z.exe"
+    "7z": "7-Zip/7z.exe"
   },
   "main": "index.js",
   "scripts": {
