@@ -9,7 +9,7 @@
     "windows",
     "install"
   ],
-  "repository": "git@github.com/diogo-bruno/win-7zip.git",
+  "repository": "git@https://github.com/diogo-bruno/win-7zip.git",
   "bin": {
     "7z": "7-Zip/7z.exe"
   },
